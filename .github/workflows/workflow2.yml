@@ -1,0 +1,6 @@
+name: second-workflow
+on: schedule
+jobs:
+  First-job:
+    - runs-on: ubuntu-latest
+    - run: echo 'Hello everyone'
