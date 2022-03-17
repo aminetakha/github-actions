@@ -1,0 +1,8 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aminetakha/github-actions.git",
+  "author": "Amine <takhajr@gmail.com>",
+  "license": "MIT"
+}
