@@ -2,7 +2,13 @@
   "name": "github-actions",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": "https://github.com/aminetakha/github-actions.git",
   "author": "Amine <takhajr@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
