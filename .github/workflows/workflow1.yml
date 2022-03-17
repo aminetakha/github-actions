@@ -4,4 +4,4 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - echo '${{ github.event }}'
+      - echo '${{ github.event_name }}'
