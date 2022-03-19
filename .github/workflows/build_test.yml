@@ -21,5 +21,4 @@ jobs:
           cache: 'yarn'
       - name: Install Dependencies
         run: yarn --frozen-lockfile
-      - run: yarn run build --if-present
       - run: yarn run test
