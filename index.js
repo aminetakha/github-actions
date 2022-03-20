@@ -1,8 +1,8 @@
-const add = (x, y) => {
-    return x + y;
-}
+const express = require("express")
+const app = express();
 
+app.get("/", (req, res) => {
+    res.json({hi: "there"})
+})
 
-module.exports = {
-    add
-}
+app.listen(5000)
